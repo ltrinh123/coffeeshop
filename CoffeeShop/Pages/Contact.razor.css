@@ -1,0 +1,188 @@
+﻿/*COLOR
+   - ALMOND: #EFDECD
+   - DARK BROWN: #462a19
+   - BROWN COFFEE: #db7030
+
+    BOX-SHADOW
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+*/
+
+.heading_contact {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 2px;
+    background: white;
+}
+
+/*Table*/
+.table-content {
+    max-width: 950px;
+    border-collapse: unset;
+    display: flex;
+    justify-content: center;
+    background: #693211;
+    box-shadow: 0px 13px 21px rgba(0, 0, 0, 0.4);
+    border-radius: 16px;
+    margin-left: auto;
+    margin-right:auto;
+}
+.table-content a {
+    text-decoration: none;
+    color: white;
+}
+.table {
+    padding: 20px;
+}
+
+tr td:first-child {
+    padding-right: 30px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+tr td {
+    padding: 20px;
+}
+td {
+    font-size: 25px;
+    color: white;
+}
+
+/*Google map*/
+.google-map {
+    margin: 20px 0;
+}
+iframe {
+    width: 900px;
+    display: block;
+    margin: 0 auto;
+}
+/*Contact form*/
+
+.heading_contact span {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #462a19;
+}
+
+.heading_contact h1 {
+    font-size: 2.3rem;
+    color: #462a19;
+}
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.container p {
+    color: #462a19;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 32px;
+    font-weight: 500;
+}
+.container form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 16px;
+    background-color: #EFDECD;
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #462a19;
+    font-size: 14px;
+    font-weight: 500;
+}
+form .form-group .form-element {
+    appearance: none;
+    outline: none;
+    border: none;
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    padding: 12px 16px;
+    background-color: #f3f3f3;
+}
+form .form-group input, textarea {
+    font-style: italic;
+}
+textarea {
+    resize: none;
+    min-height: 100px;
+}
+
+input[type=submit] {
+    border-color: #462a19;
+    background: #db7030;
+    color: white;
+    border-radius: 7px;
+}
+input[type=submit]:hover {
+    background: white;
+    color: #db7030;
+}
+
+/*Footer*/
+.footer {
+    margin-top: 2.5rem;
+    background-color: #462a19;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social {
+    padding-top: 20px;
+}
+.fa {
+    padding: 17px;
+    font-size: 29px;
+    width: 60px;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 5px 14px;
+    text-align: center;
+}
+
+.fa-facebook {
+    background: #db7030;
+    color: #EFDECD;
+}
+
+.fa-instagram {
+    background: #db7030;
+    color: #EFDECD;
+}
+
+.fa-google {
+    background: #db7030;
+    color: #EFDECD;
+}
+
+.links {
+    margin: 1rem 0 1rem;
+}
+
+.links a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #EFDECD;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+.links a:hover {
+    color: white;
+}
+
+.footer p {
+    text-align: center;
+    color: #EFDECD;
+}

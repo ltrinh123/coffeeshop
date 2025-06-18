@@ -1,0 +1,144 @@
+﻿/*COLOR
+   - ALMOND: #EFDECD
+   - DARK BROWN: #462a19
+   - BROWN COFFEE: #db7030
+*/
+
+.heading {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 2px;
+    background: white;
+}
+.heading span {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #462a19;
+}
+.heading h1 {
+    font-size: 2.3rem;
+    color: #462a19;
+}
+
+.shop-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 4rem;
+    background: #EFDECD;
+    padding: 0 10px 29px 10px;
+}
+.shop-container .box {
+    flex: 1 1 12rem;
+    background: #f5f5f5a8;
+    padding: 25px 10px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+}
+.shop-container .box .box-img {
+    width: 150px;
+    height: 150px;
+    margin-top: -100px;
+}
+.shop-container .box .box-img img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    border-radius: 10%;
+    transition: transform 0.3s;
+}
+.shop-container .box .box-img img:hover {
+    transform: scale(1.1);
+}
+/*Stars*/
+.stars {
+    margin-top: 12px;
+}
+.stars .fa {
+    font-size: 17px;
+}
+.stars .fa-star-half-full {
+    font-size: 22px;
+}
+.shop-container .box .stars .fa {
+    color: #462a19;
+}
+.shop-container .box h2 {
+    color: #462a19;
+    font-size: 1.2rem;
+}
+.shop-container .box span {
+    color: #462a19;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 0.2rem 0 0.5rem;
+}
+
+.box .btn {
+    border: 2px solid #462a19;
+    color: #462a19;
+}
+.box .btn:hover {
+    background: #462a19;
+    color: white;
+ }
+
+
+/*Footer*/
+.footer {
+    margin-top: 3.5rem;
+    background-color: #462a19;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social {
+    padding-top: 20px;
+}
+.social .fa {
+    padding: 17px;
+    font-size: 29px;
+    width: 60px;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 5px 14px;
+    text-align: center;
+}
+
+.fa-facebook {
+    background: #db7030;
+    color: #EFDECD;
+}
+
+.fa-instagram {
+    background: #db7030;
+    color: #EFDECD;
+}
+
+.fa-google {
+    background: #db7030;
+    color: #EFDECD;
+}
+
+.links {
+    margin: 1rem 0 1rem;
+}
+.links a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #EFDECD;
+    padding: 10px;
+    text-decoration: none;
+}
+.links a:hover {
+    color: white;
+}
+
+.footer p {
+    text-align: center;
+    color: #EFDECD;
+}

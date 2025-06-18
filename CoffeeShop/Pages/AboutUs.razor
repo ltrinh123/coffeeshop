@@ -1,0 +1,98 @@
+﻿@page "/AboutUs"
+@inject HttpClient Http
+
+
+<PageTitle>About Us</PageTitle>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="AboutUs.razor.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>About Us</title>
+</head>
+<body>
+    <section class="about" id="about">
+        <div class="heading_aboutUs">
+            <span>About Us</span>
+            <h1>Coffee Shop</h1>
+        </div>
+
+        <div class="aboutUs-container">
+            @*Box 1*@
+            <div class="box1">
+                <div class="box-image">
+                    <img src="images/about_us.jpg" alt="aboutus" />
+                </div>
+                <h2>Serve with respect <br /> and enthusiasm</h2>
+            </div>
+
+            @*Box 2*@
+        <div class="box1">
+            <div class="box-image">
+                <img src="images/barista.jpg" alt="barista" />
+            </div>
+            <h2>Serve with quality <br /> and fresh coffee everyday</h2>
+        </div>
+
+            @*Box 3*@
+            <div class="box1">
+                <div class="box-image">
+                    <img src="images/serve_coffee.jpg" alt="serve coffee" />
+                </div>
+                <h2>Serve with clean <br /> and santized environment </h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="coffee_imgage">
+        <div class="coffee_content">
+            <h3>Who We Are</h3>
+            <p>
+                We were founded in 1989, and are an online coffee business
+                <br />located on the south Florida.
+                <br />Every day, we fulfill our customers' wishes by
+                <br />supplying them with freshly roasted bags of
+                <br />specialty coffee and delivering it right to their doorsteps.
+            </p>
+            <h3>What We Do</h3>
+            <p>
+                A cup of coffee is more than just a caffeine jolt. It is an experience
+                <br />that should be savored one sip after the next. This is why we are
+                <br />dedicated to providing our customers with only the best available.
+            </p>
+            <h3>Excellent Customer Service</h3>
+            <p>
+                We pride ourselves in being different from other coffee companies.
+                <br />It is important that each of our customers is treated as an individual
+                <br />when it comes to their orders. Our intent is to create relationships that
+                <br />will keep you happy and to be a company that you tell your friends about.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <section class="footer" id="footer">
+            <div class="social">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="mailto:coffeeshop@gmail.com" class="fa fa-google"></a>
+            </div>
+            <div class="links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Our Company</a>
+                <p>&#169;CoffeeShop All Right Reserved.</p>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
+
+
+@code {
+}
+

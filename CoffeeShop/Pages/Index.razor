@@ -1,0 +1,51 @@
+﻿@page "/"
+@inject HttpClient Http
+
+
+<PageTitle>Home</PageTitle>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="IndexCSS.razor.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Home</title>
+</head>
+<body>
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Your Coffee</h1>
+            <h1>Your Vibe</h1>
+            <h1>Your Energy</h1>
+            <h2>Make your day great with your coffee</h2>
+            <a href="#" class="btn">Explore</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/cappuccino-cup.png" alt="home-" />
+        </div>
+    </section>
+
+    <footer>
+        <section class="footer" id="footer">
+            <div class="social">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="mailto:coffeeshop@gmail.com" class="fa fa-google"></a>
+            </div>
+            <div class="links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Our Company</a>
+                <p>&#169;CoffeeShop All Right Reserved.</p>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
+
+@code {
+
+}

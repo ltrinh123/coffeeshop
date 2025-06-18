@@ -1,0 +1,151 @@
+﻿@page "/Product"
+@inject HttpClient Http
+
+
+<PageTitle>Products</PageTitle>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Product.razor.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Products</title>
+</head>
+<body>
+    <section class="shop" id="shop">
+        <div class="heading">
+            <span>Shop Now</span>
+            <h1>Coffee Shop</h1>
+        </div>
+
+        <div class="shop-container">
+            @*Box 1*@
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/Black_Coffee.png" alt="black-cofee" />
+                </div>
+                <div class="stars">
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <i class="fa fa-star-half-full"></i>
+                </div>
+                <h2>Black Coffee</h2>
+                <span>$6.99</span>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+
+            @*Box 2*@
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/Milk_coffee.png" alt="milk-cofee" />
+                </div>
+                <div class="stars">
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <h2>Milk Coffee</h2>
+                <span>$8.49</span>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+
+            @*Box 3*@
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/Cappuccino.png" alt="cappuccino-cofee" />
+                </div>
+                <div class="stars">
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <i class="fa fa-star-half-full"></i>
+                </div>
+                <h2>Cappuccino Original</h2>
+                <span>$8.49</span>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+        </div>
+    </section>
+    <section class="shop" id="shop">
+        <div class="shop-container">
+            @*Box 1*@
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/cappuccino-heart.png" alt="cappuccino-heart" />
+                </div>
+                <div class="stars">
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <i class="fa fa-star-half-full"></i>
+                </div>
+                <h2>Cappuccino Heart Shape</h2>
+                <span>$8.99</span>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+
+            @*Box 2*@
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/coffee-foam-bunny.png" alt="coffee-foam-bunny" />
+                </div>
+                <div class="stars">
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <h2>Black Coffee</h2>
+                <span>$7.49</span>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+
+            @*Box 3*@
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/coffee-and-breakfast.png" alt="coffee-and-breakfast" />
+                </div>
+                <div class="stars">
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <h2>Black Coffee and Breakfast</h2>
+                <span>$12.49</span>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <section class="footer" id="footer">
+            <div class="social">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="mailto:coffeeshop@gmail.com" class="fa fa-google"></a>
+            </div>
+            <div class="links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Our Company</a>
+                <p>&#169;CoffeeShop All Right Reserved.</p>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
+
+@code {
+   
+}
+

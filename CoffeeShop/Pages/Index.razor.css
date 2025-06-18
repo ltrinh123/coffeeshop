@@ -1,0 +1,122 @@
+﻿/*COLOR
+   - ALMOND: #EFDECD
+   - DARK BROWN: #462a19
+   - BROWN COFFEE: #db7030
+*/
+
+
+.home {
+    width: 100%;
+    min-height: 77vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: ;
+    gap: 1rem;
+}
+.home-text {
+    flex: 1 1 19rem;
+    padding-left: 5%;
+}
+.home-img {
+    flex: 1 1 17rem;
+}
+.home-img img {
+    animation: anime 3s linear infinite;
+    width: 600px;
+}
+@keyframes anime {
+    0% {
+        transform: translate(-11px, -11p);
+    }
+    50% {
+        transform: translate(-0px, 11px);
+    }
+    100% {
+        transform: translate(-11px, 0);
+    }
+
+}
+
+.home-text h1 {
+    font-size: 3rem;
+    color: #db7030;
+    font-weight: bolder;
+}
+.home-text h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #462a19;
+    margin: 1rem 0.2rem 0.8rem 0.5rem;
+    text-transform: uppercase;
+}
+.btn {
+    padding: 7px 16px;
+    border: 2px solid;
+    border-radius: 40px;
+    color: white;
+    font-weight: 500;
+    background: #db7030;
+}
+.btn:hover {
+    color: #fff;
+    background: var(--second-color);
+}
+
+
+/*Footer*/
+.footer {
+    background-color: #462a19;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social {
+    padding-top: 20px;
+}
+.fa {
+    padding: 17px;
+    font-size: 29px;
+    width: 60px;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 5px 14px;
+    text-align: center;
+}
+
+.fa-facebook {
+    background: #db7030;
+    color: #EFDECD;
+}
+
+.fa-instagram {
+    background: #db7030;
+    color: #EFDECD;
+}
+
+.fa-google {
+    background: #db7030;
+    color: #EFDECD;
+}
+
+.links {
+    margin: 1rem 0 1rem;
+}
+
+.links a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #EFDECD;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+.links a:hover {
+    color: white;
+}
+
+.footer p {
+    text-align: center;
+    color: #EFDECD;
+}
